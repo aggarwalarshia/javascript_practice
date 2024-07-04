@@ -70,3 +70,45 @@
 // let stringNumber =String(someNumber);
 // console.log(typeof stringNumber); // string
 // console.log(stringNumber); // 33
+
+
+// *********OPERATIONS***********
+
+// let value = 3
+// let negValue = -value
+// console.log(negValue) // -3
+
+// let str1 = "hello"
+// let str2 = "Arshia"
+
+// let str3 = str1 + str2
+// console.log(str3)  // hello Arshia
+// NOTE: in above case, only addition is possible, not subtraction
+
+// console.log("1" + 2) // 12
+// console.log(1 + "2") // 12
+// console.log("1" + 2 + 2) //122
+// console.log(1 + 2 + "2") // 32
+// Notes: all this is because of guidelines defined in ECMA Script
+
+// console.log(3 + 4 * 5 % 3); // not good practice
+// console.log((3 + 4) * (5 % 3));
+
+// console.log(+true) // 1    worst practice
+//console.log(+"") // 0       worst practice
+// the + sign converts the value into integer
+
+// let num1, num2, num3
+// num1=num2=num3        worst practice
+
+// PREFIX/POSTFIX OPERATORS
+
+// let gameCounter = 100;
+// gameCounter++;
+// console.log(gameCounter); // 101
+
+// let gameCounter = 100;
+// ++gameCounter;
+// console.log(gameCounter); // 101
+
+// NOTE: learn from MDN docs
